@@ -1,0 +1,19 @@
+{
+  "name": "Bot_Insights_Portal",
+  "version": "1.0.0",
+  "description": "the test demo for bot insights portal",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {},
+  "author": "Pavani Gedala",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.5"
+  }
+}

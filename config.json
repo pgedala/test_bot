@@ -1,0 +1,11 @@
+var config = {
+  "hosts":{
+    "localhost": "localhost",
+    "ip": " 172.17.13.87"
+  },
+  "port" : "8000",
+  "endpoints" : {
+    "login" : "http://172.17.13.87:8000/login"
+	
+  }
+}
