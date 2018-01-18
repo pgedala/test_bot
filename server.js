@@ -26,5 +26,6 @@ mongoose.connect('mongodb://pavani:pavani@ds149278.mlab.com:49278/sales_db');
 require('./app/routes/convo_routes')(app, router);
 require('./app/routes/bot_routes')(app, router);
 
+//server is running on port
 app.listen(port);
 console.log("Server started at: " + port);
