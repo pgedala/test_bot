@@ -5,7 +5,7 @@ var mongoose = require('mongoose');
 
 var app = express();
 var router = express.Router();
-
+//assinging port
 var port = process.env.PORT || 8000;
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
